@@ -1,0 +1,42 @@
+.productDiv {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.productDiv img {
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.infoDoProduto {
+    display: block;
+    margin-left: 40px;
+    width: 400px;
+}
+
+.preco {
+    display: inline-block;
+    color: #307621;
+    background: #87FB55;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.loading {
+    display: block;
+    margin: 200px auto;
+    width: 80%;
+}
+
+@media(max-width: 924px) {
+    .productDiv {
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    .infoDoProduto {
+        margin-left: 0;
+        width: 334px;
+    }
+}

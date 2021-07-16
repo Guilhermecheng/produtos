@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    /* float: left; */
+    margin: 40px auto;
+    width: 100%;
+}
+
+.headerButtons {
+    text-decoration: none;
+    background: #eee;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    color: #000;
+}
+
+.headerButtons:hover {
+    background: #D6D6D6;
+}
+
+

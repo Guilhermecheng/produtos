@@ -1,0 +1,37 @@
+.mainPart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* width: 80%; */
+}
+
+.produtoBloco {
+    margin-right: 30px;
+    margin-bottom: 40px;
+    flex: 3fr;
+}
+
+.produtoBloco img {
+    max-height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produtoBloco p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.loading {
+    display: block;
+    margin: 200px auto;
+    width: 80%;
+}
+
+@media (max-width: 1200px) {
+    .produtoBloco img {
+        max-height: 400px;
+    }
+}

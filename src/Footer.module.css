@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 5rem;
+}
+
+.footerContent {
+    margin-top: 3rem;
+    color: #9b9b9b;
+    font-weight:400;
+    margin-bottom: 2rem;
+}

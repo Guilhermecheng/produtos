@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    max-width: 60rem;
+    margin: 0 auto;
+    min-height: calc(100vh + 5rem);
+}
+
+.containerContent {
+    flex: 1;
+}
+
+.active {
+    background: #D6D6D6;
+}
+
+
+@media(max-width: 924px) {
+    .container {
+        align-items: center;
+        max-width: 40rem;
+    }
+}
+
+@media(max-width: 625px) {
+    .container {
+        max-width: 20rem;
+    }
+}
