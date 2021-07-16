@@ -23,7 +23,7 @@ const Home = () => {
             <Helmet>
                 <title>Home</title>                
             </Helmet>
-            <section className={styles.mainPart}>
+            <section className={styles.mainPart + " animeLeft"}>
                 {produtosData ? (
                     produtosData.map((produto) => (
                         <div key={produto.id} className={styles.produtoBloco}>

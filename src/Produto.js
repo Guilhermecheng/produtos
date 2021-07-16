@@ -25,7 +25,7 @@ const Produto = () => {
                 <title>Ranek | {dataFromProduct ? dataFromProduct.nome : 'Produto'}</title>                
             </Helmet>
             {dataFromProduct ? (
-                <div className={styles.productDiv}>
+                <div className={styles.productDiv + " animeLeft"}>
                     <img src={dataFromProduct.fotos[0].src} /> 
                     <div className={styles.infoDoProduto}>                    
                         <h2>{dataFromProduct.nome}</h2>

@@ -16,7 +16,7 @@ const Contato = () => {
             <Helmet>
                 <title>Ranek | Contato</title>                
             </Helmet>
-            <div className={styles.blocoContato}>
+            <div className={styles.blocoContato + " animeLeft"}>
                 <img src={imagem} alt="contato" />
                 <div className={styles.dadosContato}>
                     <h3>Entre em contato conosco.</h3>
