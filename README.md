@@ -1,6 +1,9 @@
 # Produtos
 First project made using React!
 
+Please check it live:<br />
+https://produtos-50e84.web.app/
+
 ## The Project
 
 Simple platform to show some products, and when clicking in each of them, get some more details about it. Also, a contact page:
